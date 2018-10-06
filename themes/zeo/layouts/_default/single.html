@@ -9,9 +9,10 @@
     <script src="main.js"></script>
 </head>
 <body>
-  <p>Start ------------- {{ .URL }}   (Section: {{ .Section }}) --------------</p>
+  <p>Start ------------- {{ .URL }}   (Section: {{ .Section }}   type:{{ .Type }}) --------------</p>
   <h1>{{ .Title }}</h1>
+  <h2>{{ .Date.Format  "January 2, 2006"}}</h2>
   {{ .Content }}
-  <p>End --------------- {{ .URL }}   (Section: {{ .Section }}) --------------</p>
+  <p>End ------------- {{ .URL }}   (Section: {{ .Section }}   type:{{ .Type }}) --------------</p>
 </body>
 </html>
