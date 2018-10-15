@@ -4,7 +4,7 @@ date: 2018-10-06T13:35:09+02:00
 draft: false
 Tags: ["First"]
 Categories: ["Hugo"]
-
+menu: "mainmenu"
 ---
 
 DEtte er den forste posten

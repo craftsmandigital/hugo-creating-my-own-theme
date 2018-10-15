@@ -5,5 +5,6 @@ Description: "About this blog"
 Tags: []
 Categories: []
 
+menu: "mainmenu"
 ---
 
