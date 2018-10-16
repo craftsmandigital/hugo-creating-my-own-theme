@@ -1,7 +1,14 @@
 {{ partial "header.html" . }}
-  <p>Start ------------- {{ .URL }}   (Section: {{ .Section }}   type:{{ .Type }}) --------------</p>
+  <p>Start singel ------------- {{ .URL }}   (Section: {{ .Section }}   type:{{ .Type }}) --------------</p>
   <h1>{{ .Title }}</h1>
   <!-- <h2>{{ .Date.Format  "January 2, 2006"}}</h2> -->
   {{ .Content }}
-  <p>End ------------- {{ .URL }}   (Section: {{ .Section }}   type:{{ .Type }}) --------------</p>
+  <p>End singel------------- {{ .URL }}   (Section: {{ .Section }}   type:{{ .Type }}) --------------</p>
 {{ partial "footer.html" . }}
+
+   {{ partial "debugprint.html" . }}
+   {{ partial "debugprint.html" .Params }}
+     {{ partial "debugprint.html" .Site }}
+     {{ partial "debugprint.html" .Site.Menus }}
+     {{ partial "debugprint.html" .Resources }}
+     {{ partial "debugprint.html" .File }}
