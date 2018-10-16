@@ -6,8 +6,7 @@
     <script src="main.js"></script>
     <style>
     
-         /* {{ if (not ($.Param "disable_debug")) }} */
+         {{ if (not ($.Site.Params.disable_debug)) }}
              {{ partial "debugprint.css" | safeCSS }}
-         /* {{ end }} */
-         /* Captions */
+         {{ end }}
     </style>
