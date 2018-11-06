@@ -1,7 +1,7 @@
-{{ partial "header.html" . }}
+{{ define "main" }}
   <p>Start ------------- {{ .URL }}   (Section: {{ .Section }}   type:{{ .Type }}) --------------</p>
     {{ range .Data.Pages }}
     <h1><a href={{ .Permalink }}>{{ .Title }}</a></h1>
   {{ end }}
   <p>End --------------- {{ .URL }}   (Section: {{ .Section }}   type:{{ .Type }}) --------------</p>
-{{ partial "footer.html" . }}
+{{end}}
