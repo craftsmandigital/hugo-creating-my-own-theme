@@ -1,11 +1,15 @@
-{{ partial "header.html" . }}
+{{ define "main" }}
   <p>Start ------------- {{ .URL }}   (Section: {{ .Section }}   type:{{ .Type }}) --------------</p>
     {{ range .Data.Pages }}
     <h1><a href={{ .Permalink }}>{{ .Title }}</a></h1>
   {{ end }}
   <p>End --------------- {{ .URL }}   (Section: {{ .Section }}   type:{{ .Type }}) --------------</p>
+<<<<<<< HEAD
 {{ partial "footer.html" . }}
 {{ range .Pages }}
     {{/* The context, ".", is now each one of the pages as it goes through the loop */}}
     {{ printf "%#v" . }}
 {{ end }}
+=======
+{{end}}
+>>>>>>> dev

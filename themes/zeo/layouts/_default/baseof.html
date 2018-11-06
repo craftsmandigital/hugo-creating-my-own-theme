@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
-    {{- partial "head.html" . -}}
     <body>
+    {{- partial "head.html" . -}}
         {{- partial "header.html" . -}}
+        <p>This is baseof speaking</p>
         <div id="content">
-        {{- block "main" . }}{{- end }}
+        {{ block "main" . }}{{end}}
         </div>
         {{- partial "footer.html" . -}}
 

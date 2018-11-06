@@ -1,8 +1,14 @@
+<<<<<<< HEAD
 {{ partial "header.html" . }}
   <p>Start singel ------------- {{ .URL }}   (Section: {{ .Section }}   type:{{ .Type }}) --------------</p>
+=======
+{{ define "main" }}
+  <p>Start ------------- {{ .URL }}   (Section: {{ .Section }}   type:{{ .Type }}) --------------</p>
+>>>>>>> dev
   <h1>{{ .Title }}</h1>
   <!-- <h2>{{ .Date.Format  "January 2, 2006"}}</h2> -->
   {{ .Content }}
+<<<<<<< HEAD
   <p>End singel------------- {{ .URL }}   (Section: {{ .Section }}   type:{{ .Type }}) --------------</p>
 {{ partial "footer.html" . }}
 
@@ -15,3 +21,7 @@
      {{ partial "debugprint.html" .File }}
 
 {{ end }}
+=======
+  <p>End ------------- {{ .URL }}   (Section: {{ .Section }}   type:{{ .Type }}) --------------</p>
+{{end}}
+>>>>>>> dev
