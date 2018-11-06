@@ -4,4 +4,4 @@ title = "This is my first Blog"
 theme = ["hugo-debugprint", "zeo"]
     
 [params]
-    disable_debug = true
+    disable_debug = false
