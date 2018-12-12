@@ -1,0 +1,26 @@
+{
+  "AL": {
+    "name": "Alabama",
+    "capital": "Montgomery",
+    "lat": "32.361538",
+    "long": "-86.279118"
+  },
+  "AK": {
+    "name": "Alaska",
+    "capital": "Juneau",
+    "lat": "58.301935",
+    "long": "-134.419740"
+  },
+  "IK": {
+    "name": "halla",
+    "capital": "Balla",
+    "lat": "555.301935",
+    "long": "-1111.419740"
+  },
+  "OO": {
+    "name": "Norge",
+    "capital": "Oslo",
+    "lat": "58.3019666666666666635",
+    "long": "-134.6666666666640"
+  }
+}

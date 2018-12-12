@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tags -- (Partial head.html)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+    
+         
+             /* CSS for Pretty Print for Debug (debugprint.html) */
+/* https://github.com/kaushalmodi/hugo-debugprint/blob/master/layouts/partials/debugprint.html */
+/* https://github.com/kaushalmodi/hugo-debugprint/blob/master/layouts/partials/debugprint.css */
+.debugprint_wrap {
+    padding: 20px;
+    display: inline-block;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+}
+.debugprint td, .debugprint th {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.debugprint th {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.debugprint tr {
+    padding: 5px 10px;
+}
+.debugprint .key {
+    font-weight: bold;
+}
+.debugprint .type {
+    /* Hide Type columns in debugprint */
+    /* display: none; */
+    font-size: 0.9em;
+    font-family: monospace;
+    font-style: italic;
+}
+.debugprint .value {
+    font-family: monospace;
+}
+.debugprint .true {
+    color: green;
+}
+.debugprint .false {
+    color: red;
+}
+/* Don't touch the table headers */
+.debugprint th.key,
+.debugprint th.type,
+.debugprint th.value {
+    font-family: helvetica, arial, san-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1em;
+    font-style: normal;
+}
+
+         
+    </style></head>
+    <body>  <p>Start ------------- Partial header.html --------------</p>
+<DIV> 
+  <nav>  
+  <ul> 
+    
+    <li><a href="/about/">About</a></li>
+  
+    <li><a href="/post/first/">First</a></li>
+  
+  </ul>
+  <p>tags</p></nav>
+</DIV>
+  <p>End --------------  Partial header.html --------------</p><p>This is baseof speaking</p>
+        <div id="content">
+        
+  
+  <p>Start ------------- /tags/   (Section: tags   type:tags) --------------</p>
+    
+    <h1><a href=/tags/first/>First</a></h1>
+  
+    <h1><a href=/tags/two/>Two</a></h1>
+  
+  <p>End --------------- /tags/   (Section: tags   type:tags) --------------</p>
+
+        </div>  <p>Start ------------- Partial footer.html --------------</p>
+
+  <p>End --------------  Partial footer.html --------------</p>
+  <p>&amp;hugolib.PageOutput{Page:(*hugolib.Page)(0xc00029a000), paginator:(*hugolib.Pager)(nil), paginatorInit:sync.Once{m:sync.Mutex{state:0, sema:0x0}, done:0x0}, resources:resource.Resources(nil), resourcesInit:sync.Once{m:sync.Mutex{state:0, sema:0x0}, done:0x1}, targetPathDescriptor:hugolib.targetPathDescriptor{PathSpec:(*helpers.PathSpec)(0xc000175680), Type:output.Format{Name:&#34;HTML&#34;, MediaType:media.Type{MainType:&#34;text&#34;, SubType:&#34;html&#34;, mimeSuffix:&#34;&#34;, Delimiter:&#34;.&#34;, Suffixes:[]string{&#34;html&#34;}, fileSuffix:&#34;&#34;}, Path:&#34;&#34;, BaseName:&#34;index&#34;, Rel:&#34;canonical&#34;, Protocol:&#34;&#34;, IsPlainText:false, IsHTML:true, NoUgly:false, NotAlternative:false}, Kind:&#34;taxonomyTerm&#34;, Sections:[]string{&#34;tags&#34;}, BaseName:&#34;&#34;, Dir:&#34;&#34;, LangPrefix:&#34;&#34;, IsMultihost:false, URL:&#34;&#34;, Addends:&#34;&#34;, ExpandedPermalink:&#34;&#34;, UglyURLs:false}, outputFormat:output.Format{Name:&#34;HTML&#34;, MediaType:media.Type{MainType:&#34;text&#34;, SubType:&#34;html&#34;, mimeSuffix:&#34;&#34;, Delimiter:&#34;.&#34;, Suffixes:[]string{&#34;html&#34;}, fileSuffix:&#34;&#34;}, Path:&#34;&#34;, BaseName:&#34;index&#34;, Rel:&#34;canonical&#34;, Protocol:&#34;&#34;, IsPlainText:false, IsHTML:true, NoUgly:false, NotAlternative:false}}</p></body>
+</html>
