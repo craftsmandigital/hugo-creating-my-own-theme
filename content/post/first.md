@@ -8,3 +8,6 @@ menu: "mainmenu"
 ---
 
 DEtte er den forste posten
+
+
+{{< bookmarks >}}
