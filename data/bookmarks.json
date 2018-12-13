@@ -1,0 +1,26 @@
+{
+  "4": {
+    "Sort": 4,
+    "Description": "GitHub",
+    "URL": "https://github.com/hackingjack?tab=repositories",
+    "Icon": "fa-github"
+  },
+  "1": {
+    "Sort": 1,
+    "Description": "Drive",
+    "URL": "https://drive.google.com/",
+    "Icon": "fa-google-drive"
+  },
+  "3": {
+    "Sort": 3,
+    "Description": "Pocket",
+    "URL": "https://getpocket.com/a/favorites/list/",
+    "Icon": "fa-get-pocket"
+  },
+  "2": {
+    "Sort": 2,
+    "Description": "YouTube",
+    "URL": "https://www.youtube.com/",
+    "Icon": "fa-youtube"
+  }
+}

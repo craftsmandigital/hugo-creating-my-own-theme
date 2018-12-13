@@ -1,8 +1,9 @@
 
-{{ range.Site.Data.state}}
+{{ range.Site.Data.bookmarks }}
 
 <h1>{{ . }}</h1>
-<h2>{{ .name }}</h2>
-<p>hello{{ .capital }}</p>
-Location : {{ .lat }}, {{ .long }} 
+<a href="{{ .URL }}">{{ .Description}}</a>
+<h2>{{ .Description}}</h2>
+<p>hello{{ .URL }}</p>
+Location : {{ .Icon }}, {{ .Note }} 
 {{ end }}
