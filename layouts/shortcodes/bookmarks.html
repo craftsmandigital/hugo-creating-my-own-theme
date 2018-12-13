@@ -1,9 +1,7 @@
 
+        <div class="container">
 {{ range.Site.Data.bookmarks }}
 
-<h1>{{ . }}</h1>
-<a href="{{ .URL }}">{{ .Description}}</a>
-<h2>{{ .Description}}</h2>
-<p>hello{{ .URL }}</p>
-Location : {{ .Icon }}, {{ .Note }} 
+            <div><i class="fab {{ .Icon }} fa-6x"></i><br><span>{{ .Description}}</span></div>
 {{ end }}
+        </div>
